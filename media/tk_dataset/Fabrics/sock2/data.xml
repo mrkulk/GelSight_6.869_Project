@@ -1,0 +1,14 @@
+<!DOCTYPE GelSightData>
+<imageset name="" date="2012-11-23T18:38:30">
+ <notes></notes>
+ <camera gamma="1.00684" shutter="4.03154" gain="0"/>
+ <images>
+  <image name="image1.png"/>
+  <image name="image2.png"/>
+  <image name="image3.png"/>
+  <image name="image4.png"/>
+  <image name="image5.png"/>
+  <image name="image6.png"/>
+ </images>
+ <surface name="surface.pfm"/>
+</imageset>
