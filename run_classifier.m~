@@ -1,0 +1,45 @@
+%Main file
+
+tic;
+formatMaterialDataset;
+
+mapping=getmapping(8,'u2'); 
+
+%       I2=imread('rice2.png');
+%       I3=imread('rice3.png');
+%       I4=imread('rice4.png');
+%       mapping=getmapping(8,'u2'); 
+%       M(1,:)=LBPV(I1,1,8,mapping); % LBPV histogram in (8,1) neighborhood using uniform patterns
+%       M(2,:)=LBPV(I2,1,8,mapping); 
+%       S(1,:)=LBPV(I3,1,8,mapping); 
+%       S(2,:)=LBPV(I4,1,8,mapping); 
+%       M = ConvertU2LBP(M,8); % convert u2 LBP or LBPV to meet the requirement of global matching scheme
+%       S = ConvertU2LBP(S,8);
+%       DM = distGMPDRN(M,S,8,2,3);
+%       CP=ClassifyOnNN(DM,[1,1],[1,1]);
+
+
+%Test set
+%testlbl =[]
+for ii=1:10
+    fabrictestdata(ii,:) = LBPV(DATA{ii},1,8,mapping);
+    %testlbl(ii)=1;
+    ii
+end
+
+lbl=[];
+for ii=11:109
+    fabrictraindata(ii-10,:) = LBPV(DATA{ii},1,8,mapping);
+    if ii < 46
+        lbl(ii-10) = 1;
+    else
+        lbl(ii-10)=-1;
+    end
+    ii
+end
+
+SVMStruct=svmtrain(fabrictraindata,lbl);
+classoutput = svmclassify(SVMStruct,fabrictestdata);
+
+
+toc;

@@ -1,0 +1,6 @@
+
+files=getAllFiles('media/tk_dataset');
+
+for i=1:length(a)
+    if 
+    

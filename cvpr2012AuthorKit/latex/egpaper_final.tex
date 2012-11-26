@@ -1,0 +1,155 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+%\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ifcvprfinal\pagestyle{empty}\fi
+\setcounter{page}{4321}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Using GelSight Sensor for Material Recognition in the Wild}
+
+\author{Tejas D Kulkarni\\
+Massachusetts Institute of Technology\\
+{\tt\small tejask@mit.edu}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Second Author\\
+Institution2\\
+First line of institution2 address\\
+{\tt\small secondauthor@i2.org}
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+TODO
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+TODO
+
+%-------------------------------------------------------------------------
+\section{Related Work}
+
+All manuscripts must be in English.
+
+%-------------------------------------------------------------------------
+
+\begin{figure}[t]
+\begin{center}
+\fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+   %\includegraphics[width=0.8\linewidth]{egfigure.eps}
+\end{center}
+   \caption{Example of caption.  It is set in Roman so that mathematics
+   (always set in Roman: $B \sin A = A \sin B$) may be included without an
+   ugly clash.}
+\label{fig:long}
+\label{fig:onecol}
+\end{figure}
+
+\subsection{Miscellaneous}
+
+\noindent
+Compare the following:\\
+\begin{tabular}{ll}
+ \verb'$conf_a$' &  $conf_a$ \\
+ \verb'$\mathit{conf}_a$' & $\mathit{conf}_a$
+\end{tabular}\\
+
+
+\begin{figure*}
+\begin{center}
+\fbox{\rule{0pt}{2in} \rule{.9\linewidth}{0pt}}
+\end{center}
+   \caption{Example of a short caption, which should be centered.}
+\label{fig:short}
+\end{figure*}
+
+%------------------------------------------------------------------------
+\section{Our Approach}
+TODO
+
+
+%------------------------------------------------------------------------
+\section{Experimental Results}
+TODO
+
+%-------------------------------------------------------------------------
+\subsection{BLAH}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+Method & Frobnability \\
+\hline\hline
+Theirs & Frumpy \\
+Yours & Frobbly \\
+Ours & Makes one's heart Frob\\
+\hline
+\end{tabular}
+\end{center}
+\caption{Results.   Ours is better.}
+\end{table}
+
+%-------------------------------------------------------------------------
+\subsection{Illustrations, graphs, and photographs}
+
+When placing figures in \LaTeX, it's almost always best to use
+\verb+\includegraphics+, and to specify the  figure width as a multiple of
+the line width as in the example below
+{\small\begin{verbatim}
+   \usepackage[dvips]{graphicx} ...
+   \includegraphics[width=0.8\linewidth]
+                   {myfile.eps}
+\end{verbatim}
+}
+
+
+%-------------------------------------------------------------------------
+\section{Conclusion}
+
+Color is valuable, and will be visible to readers of the electronic copy.
+However ensure that, when printed on a monochrome printer, no important
+information is lost by the conversion to grayscale.
+
+%------------------------------------------------------------------------
+\section{Acknowledgements}
+
+You must include your signed IEEE copyright release form when you submit
+your finished paper. We MUST have this form before your paper can be
+published in the proceedings.
+
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
+
+\end{document}
