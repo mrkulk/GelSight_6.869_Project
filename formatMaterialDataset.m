@@ -1,5 +1,5 @@
 
-files=getAllFiles('media/tk_dataset');
+files=getAllFiles('media/dataset/tk_dataset');
 
 labeldict =MapN();
 labeldict('fabrics') = 1;
@@ -27,7 +27,7 @@ end
 
 %Random data (-1) which does not belong to any category
 mapping=getmapping(8,'u2'); 
-randfiles = getAllFiles('media/otherdata');
+randfiles = getAllFiles('media/dataset/otherdata');
 randdata = [];
 CNT=1;
 for i=1:length(randfiles)
