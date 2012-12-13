@@ -1,17 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.7.15)  25 NOV 2012 22:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Cygwin) (format=pdflatex 2012.11.1)  12 DEC 2012 20:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**egpaper_final
+**egpaper_final.tex
 (./egpaper_final.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ba
-sque, danish, dutch, ukenglish, usenglishmax, finnish, french, german, ngerman,
- swissgerman, hungarian, italian, bokmal, nynorsk, polish, portuguese, spanish,
- swedish, loaded.
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
+ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
+rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
+kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
+ polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
+lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
+welsh, loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/base/size10.clo
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,27 +32,23 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(./cvpr.sty (./eso-pic.sty
+) (./cvpr.sty (./eso-pic.sty
 Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
- (./cvpr_eso.sty
+
+(./cvpr_eso.sty
 
 LaTeX Warning: You have requested package `eso-pic',
                but the package provides `everyshi'.
 
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/share/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
 CVPR 8.5 x 11-Inch Proceedings Style `cvpr.sty'.
-! Font \cvprtenhv=phvb at 8.0pt not loadable: Metric (TFM) file not found.
-l.51 \font\cvprtenhv  = phvb at 8pt 
-                                    % *** IF THIS FAILS, SEE cvpr.sty ***
-? 
 \@ctmp=\skip43
 \@figindent=\skip44
 \cvprrulerbox=\box26
@@ -58,33 +61,33 @@ l.51 \font\cvprtenhv  = phvb at 8pt
 \cv@tot=\count89
 \cv@tmpc@=\count90
 \cv@tmpc=\count91
-) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/psnfss/times.sty
+) (/usr/share/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/epsfig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/epsfig.sty
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count92
@@ -95,24 +98,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \epsfxsize=\dimen108
 \epsfysize=\dimen109
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks15
 \ex@=\dimen110
 ))
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen111
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count93
@@ -153,17 +156,72 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(./egpaper_final.aux)
+(/usr/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen119
+\captionmargin@=\dimen120
+\captionwidth=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2-> \setbox \@tempboxa \hb
+ox {\small \noindent #1.~#2} \setlength {\@ctmp }{\hsize } \addtolength {\@ctmp
+ }{-\@figindent }\addtolength {\@ctmp }{-\@figindent } \ifdim \wd \@tempboxa >\
+@ctmp {\small #1.~#2\par } \else \hbox to\hsize {\hfil \box \@tempboxa \hfil } 
+\fi .
+\c@ContinuedFloat=\count105
+)
+\c@KVtest=\count106
+\sf@farskip=\skip48
+\sf@captopadj=\dimen125
+\sf@capskip=\skip49
+\sf@nearskip=\skip50
+\c@subfigure=\count107
+\c@subfigure@save=\count108
+\c@lofdepth=\count109
+\c@subtable=\count110
+\c@subtable@save=\count111
+\c@lotdepth=\count112
+\sf@top=\skip51
+\sf@bottom=\skip52
+) (./egpaper_final.aux
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+
+LaTeX Warning: Label `fig:long' multiply defined.
+
+
+LaTeX Warning: Label `fig:onecol' multiply defined.
+
+)
 \openout1 = `egpaper_final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -179,41 +237,40 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
-
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ABD: EveryShipout initializing macros
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen119
+\scratchcounter=\count113
+\scratchdimen=\dimen126
 \scratchbox=\box30
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count114
+\nofMParguments=\count115
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen120
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen127
+\MPnumerator=\count117
+\makeMPintoPDFobject=\count118
 \everyMPtoPDFconversion=\toks21
-) (/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -222,21 +279,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)) (/usr/local/texlive/2012basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -248,253 +306,670 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
- (/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+LaTeX Font Info:    Try loading font information for U+msa on input line 35.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 35.
 
-(/usr/local/texlive/2012basic/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-! Font OT1/pcr/m/n/12=pcrr7t at 12.0pt not loadable: Metric (TFM) file not foun
-d.
-<to be read again> 
-                   relax 
-l.45 \maketitle
-               
-? 
-! Font OT1/pcr/m/n/9=pcrr7t at 9.0pt not loadable: Metric (TFM) file not found.
-<to be read again> 
-                   relax 
-l.45 \maketitle
-               
-? 
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no @ in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no @ in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no g in font nullfont!
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
-! Font OT1/pcr/m/n/10=pcrr7t at 10.0pt not loadable: Metric (TFM) file not foun
-d.
-<to be read again> 
-                   relax 
-l.81  \verb
-           '$conf_a$' &  $conf_a$ \\
-? 
-Missing character: There is no $ in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no _ in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no $ in font nullfont!
-Missing character: There is no $ in font nullfont!
-Missing character: There is no \ in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no { in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no } in font nullfont!
-Missing character: There is no _ in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no $ in font nullfont!
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--84
+<images/fabric.png, id=1, 642.4pt x 481.8pt>
+File: images/fabric.png Graphic file (type png)
+ <use images/fabric.png>
+Package pdftex.def Info: images/fabric.png used on input line 63.
+(pdftex.def)             Requested size: 35.56894pt x 26.67184pt.
+
+<images/foliage.png, id=2, 642.4pt x 481.8pt>
+File: images/foliage.png Graphic file (type png)
+ <use images/foliage.png>
+Package pdftex.def Info: images/foliage.png used on input line 66.
+(pdftex.def)             Requested size: 35.56894pt x 26.67184pt.
+
+<images/stone.png, id=3, 642.4pt x 481.8pt>
+File: images/stone.png Graphic file (type png)
+ <use images/stone.png>
+Package pdftex.def Info: images/stone.png used on input line 69.
+(pdftex.def)             Requested size: 35.56894pt x 26.67184pt.
+
+<images/wood.png, id=4, 642.4pt x 481.8pt>
+File: images/wood.png Graphic file (type png)
+ <use images/wood.png>
+Package pdftex.def Info: images/wood.png used on input line 72.
+(pdftex.def)             Requested size: 35.56894pt x 26.67184pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--74
 
  []
 
-Missing character: There is no \ in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no \ in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no { in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no x in font nullfont!
-Missing character: There is no } in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no \ in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no [ in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no \ in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no { in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no } in font nullfont!
-(./egpaper_final.bbl
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no f in font nullfont!
- [4321{/usr/local/texlive/2012basic/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
-p}
+Package epstopdf Info: Source file: <images/fabric.eps>
+(epstopdf)                    date: 2012-12-02 03:38:01
+(epstopdf)                    size: 7502909 bytes
+(epstopdf)             Output file: <images/fabric-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 07:08:43
+(epstopdf)                    size: 138644 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fabric-eps-converte
+d-to.pdf images/fabric.eps>
+(epstopdf)             \includegraphics on input line 76.
+Package epstopdf Info: Output file is already uptodate.
+<images/fabric-eps-converted-to.pdf, id=5, 599.23875pt x 479.7925pt>
+File: images/fabric-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fabric-eps-converted-to.pdf>
+Package pdftex.def Info: images/fabric-eps-converted-to.pdf used on input line 
+76.
+(pdftex.def)             Requested size: 59.28398pt x 47.46227pt.
+Package epstopdf Info: Source file: <images/foliage.eps>
+(epstopdf)                    date: 2012-12-02 03:45:57
+(epstopdf)                    size: 7502908 bytes
+(epstopdf)             Output file: <images/foliage-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 07:08:45
+(epstopdf)                    size: 80292 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/foliage-eps-convert
+ed-to.pdf images/foliage.eps>
+(epstopdf)             \includegraphics on input line 79.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/foliage-eps-converted-to.pdf, id=6, 599.23875pt x 479.7925pt>
+File: images/foliage-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/foliage-eps-converted-to.pdf>
+Package pdftex.def Info: images/foliage-eps-converted-to.pdf used on input line
+ 79.
+(pdftex.def)             Requested size: 59.28398pt x 47.46227pt.
+Package epstopdf Info: Source file: <images/stone.eps>
+(epstopdf)                    date: 2012-12-02 03:48:44
+(epstopdf)                    size: 7502906 bytes
+(epstopdf)             Output file: <images/stone-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 07:08:46
+(epstopdf)                    size: 93072 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/stone-eps-converted
+-to.pdf images/stone.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/stone-eps-converted-to.pdf, id=7, 599.23875pt x 479.7925pt>
+File: images/stone-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/stone-eps-converted-to.pdf>
+Package pdftex.def Info: images/stone-eps-converted-to.pdf used on input line 8
+2.
+(pdftex.def)             Requested size: 59.28398pt x 47.46227pt.
+Package epstopdf Info: Source file: <images/wood.eps>
+(epstopdf)                    date: 2012-12-02 03:51:16
+(epstopdf)                    size: 7502905 bytes
+(epstopdf)             Output file: <images/wood-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 07:08:48
+(epstopdf)                    size: 119760 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/wood-eps-converted-
+to.pdf images/wood.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/wood-eps-converted-to.pdf, id=8, 599.23875pt x 479.7925pt>
+File: images/wood-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/wood-eps-converted-to.pdf>
+Package pdftex.def Info: images/wood-eps-converted-to.pdf used on input line 85
+.
+(pdftex.def)             Requested size: 59.28398pt x 47.46227pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--87
+
+ []
 
 
-]
-Missing character: There is no t in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no f in font nullfont!
-) [4322
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-] (./egpaper_final.aux) ) 
+Package epstopdf Info: Source file: <images/gelnew.eps>
+(epstopdf)                    date: 2012-12-02 01:45:24
+(epstopdf)                    size: 14036658 bytes
+(epstopdf)             Output file: <images/gelnew-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 06:19:33
+(epstopdf)                    size: 782501 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/gelnew-eps-converte
+d-to.pdf images/gelnew.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+<images/gelnew-eps-converted-to.pdf, id=9, 1159.33125pt x 566.115pt>
+File: images/gelnew-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/gelnew-eps-converted-to.pdf>
+Package pdftex.def Info: images/gelnew-eps-converted-to.pdf used on input line 
+94.
+(pdftex.def)             Requested size: 397.48651pt x 194.09189pt.
+
+Underfull \vbox (badness 3471) has occurred while \output is active []
+
+ [4321{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./images/fabric.png (PNG copy)> <./images/foliage.png (PNG copy)> <./images/s
+tone.png (PNG copy)> <./images/wood.png (PNG copy)> <./images/fabric-eps-conver
+ted-to.pdf> <./images/foliage-eps-converted-to.pdf> <./images/stone-eps-convert
+ed-to.pdf> <./images/wood-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 116.
+
+ (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+
+
+LaTeX Warning: Citation `textons' on page 4322 undefined on input line 129.
+
+
+LaTeX Warning: Citation `lbpv' on page 4322 undefined on input line 129.
+
+
+LaTeX Warning: Citation `lbpv' on page 4322 undefined on input line 129.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--151
+
+ []
+
+<images/coin1.png, id=58, 642.4pt x 481.8pt>
+File: images/coin1.png Graphic file (type png)
+ <use images/coin1.png>
+Package pdftex.def Info: images/coin1.png used on input line 164.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+<images/coin2.png, id=59, 642.4pt x 481.8pt>
+File: images/coin2.png Graphic file (type png)
+ <use images/coin2.png>
+Package pdftex.def Info: images/coin2.png used on input line 167.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+<images/coin3.png, id=60, 642.4pt x 481.8pt>
+File: images/coin3.png Graphic file (type png)
+ <use images/coin3.png>
+Package pdftex.def Info: images/coin3.png used on input line 170.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--172
+
+ []
+
+<images/coin4.png, id=61, 642.4pt x 481.8pt>
+File: images/coin4.png Graphic file (type png)
+ <use images/coin4.png>
+Package pdftex.def Info: images/coin4.png used on input line 174.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+<images/coin5.png, id=62, 642.4pt x 481.8pt>
+File: images/coin5.png Graphic file (type png)
+ <use images/coin5.png>
+Package pdftex.def Info: images/coin5.png used on input line 177.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+<images/coin6.png, id=63, 642.4pt x 481.8pt>
+File: images/coin6.png Graphic file (type png)
+ <use images/coin6.png>
+Package pdftex.def Info: images/coin6.png used on input line 180.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--182
+
+ []
+
+<images/circle.png, id=64, 642.4pt x 481.8pt>
+File: images/circle.png Graphic file (type png)
+ <use images/circle.png>
+Package pdftex.def Info: images/circle.png used on input line 195.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+Package epstopdf Info: Source file: <images/calib1.eps>
+(epstopdf)                    date: 2012-12-02 03:27:46
+(epstopdf)                    size: 7502907 bytes
+(epstopdf)             Output file: <images/calib1-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 06:29:47
+(epstopdf)                    size: 134950 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/calib1-eps-converte
+d-to.pdf images/calib1.eps>
+(epstopdf)             \includegraphics on input line 198.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/calib1-eps-converted-to.pdf, id=65, 599.23875pt x 479.7925pt>
+File: images/calib1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/calib1-eps-converted-to.pdf>
+Package pdftex.def Info: images/calib1-eps-converted-to.pdf used on input line 
+198.
+(pdftex.def)             Requested size: 78.25528pt x 62.6534pt.
+Package epstopdf Info: Source file: <images/calib2.eps>
+(epstopdf)                    date: 2012-12-02 03:28:53
+(epstopdf)                    size: 7502907 bytes
+(epstopdf)             Output file: <images/calib2-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 06:35:00
+(epstopdf)                    size: 308562 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/calib2-eps-converte
+d-to.pdf images/calib2.eps>
+(epstopdf)             \includegraphics on input line 201.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/calib2-eps-converted-to.pdf, id=66, 599.23875pt x 479.7925pt>
+File: images/calib2-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/calib2-eps-converted-to.pdf>
+Package pdftex.def Info: images/calib2-eps-converted-to.pdf used on input line 
+201.
+(pdftex.def)             Requested size: 78.25528pt x 62.6534pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--203
+
+ []
+
+<images/fabric_mask_image.png, id=67, 642.4pt x 481.8pt>
+File: images/fabric_mask_image.png Graphic file (type png)
+
+<use images/fabric_mask_image.png>
+Package pdftex.def Info: images/fabric_mask_image.png used on input line 213.
+(pdftex.def)             Requested size: 78.25528pt x 58.68834pt.
+Package epstopdf Info: Source file: <images/fabric_mask_shape.eps>
+(epstopdf)                    date: 2012-12-02 07:34:21
+(epstopdf)                    size: 7578268 bytes
+(epstopdf)             Output file: <images/fabric_mask_shape-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2012-12-02 07:42:23
+(epstopdf)                    size: 258835 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fabric_mask_shape-e
+ps-converted-to.pdf images/fabric_mask_shape.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fabric_mask_shape-eps-converted-to.pdf, id=68, 599.23875pt x 484.81125p
+t>
+File: images/fabric_mask_shape-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fabric_mask_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fabric_mask_shape-eps-converted-to.pdf used on 
+input line 216.
+(pdftex.def)             Requested size: 78.25528pt x 63.30878pt.
+Package epstopdf Info: Source file: <images/fabric_mask.eps>
+(epstopdf)                    date: 2012-12-02 07:32:06
+(epstopdf)                    size: 28099 bytes
+(epstopdf)             Output file: <images/fabric_mask-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 07:42:24
+(epstopdf)                    size: 14953 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fabric_mask-eps-con
+verted-to.pdf images/fabric_mask.eps>
+(epstopdf)             \includegraphics on input line 219.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fabric_mask-eps-converted-to.pdf, id=69, 605.26125pt x 426.59375pt>
+File: images/fabric_mask-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fabric_mask-eps-converted-to.pdf>
+Package pdftex.def Info: images/fabric_mask-eps-converted-to.pdf used on input 
+line 219.
+(pdftex.def)             Requested size: 78.25528pt x 55.15318pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--221
+
+ []
+
+[4322 <./images/gelnew-eps-converted-to.pdf> <./images/coin1.png (PNG copy)> <.
+/images/coin2.png (PNG copy)> <./images/coin3.png (PNG copy)> <./images/coin4.p
+ng (PNG copy)> <./images/coin5.png (PNG copy)> <./images/coin6.png (PNG copy)>]
+Package epstopdf Info: Source file: <images/performanceFigure.eps>
+(epstopdf)                    date: 2012-12-02 05:57:46
+(epstopdf)                    size: 12277 bytes
+(epstopdf)             Output file: <images/performanceFigure-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2012-12-02 06:53:56
+(epstopdf)                    size: 8646 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/performanceFigure-e
+ps-converted-to.pdf images/performanceFigure.eps>
+(epstopdf)             \includegraphics on input line 233.
+Package epstopdf Info: Output file is already uptodate.
+<images/performanceFigure-eps-converted-to.pdf, id=88, 599.23875pt x 481.8pt>
+File: images/performanceFigure-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/performanceFigure-eps-converted-to.pdf>
+Package pdftex.def Info: images/performanceFigure-eps-converted-to.pdf used on 
+input line 233.
+(pdftex.def)             Requested size: 189.70947pt x 152.52501pt.
+Package epstopdf Info: Source file: <images/falsepos.eps>
+(epstopdf)                    date: 2012-12-02 05:58:20
+(epstopdf)                    size: 11795 bytes
+(epstopdf)             Output file: <images/falsepos-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 06:53:58
+(epstopdf)                    size: 8564 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/falsepos-eps-conver
+ted-to.pdf images/falsepos.eps>
+(epstopdf)             \includegraphics on input line 243.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/falsepos-eps-converted-to.pdf, id=89, 599.23875pt x 481.8pt>
+File: images/falsepos-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/falsepos-eps-converted-to.pdf>
+Package pdftex.def Info: images/falsepos-eps-converted-to.pdf used on input lin
+e 243.
+(pdftex.def)             Requested size: 189.70947pt x 152.52501pt.
+Package epstopdf Info: Source file: <images/speed.eps>
+(epstopdf)                    date: 2012-12-02 01:03:04
+(epstopdf)                    size: 9428 bytes
+(epstopdf)             Output file: <images/speed-eps-converted-to.pdf>
+(epstopdf)                    date: 2012-12-02 06:53:59
+(epstopdf)                    size: 7088 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/speed-eps-converted
+-to.pdf images/speed.eps>
+(epstopdf)             \includegraphics on input line 255.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/speed-eps-converted-to.pdf, id=90, 599.23875pt x 479.7925pt>
+File: images/speed-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/speed-eps-converted-to.pdf>
+Package pdftex.def Info: images/speed-eps-converted-to.pdf used on input line 2
+55.
+(pdftex.def)             Requested size: 189.70947pt x 151.8895pt.
+Package epstopdf Info: Source file: <images/fail_fabric_lbp.eps>
+(epstopdf)                    date: 2012-12-02 04:09:36
+(epstopdf)                    size: 395337 bytes
+(epstopdf)             Output file: <images/fail_fabric_lbp-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2012-12-02 07:24:17
+(epstopdf)                    size: 172438 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_fabric_lbp-eps
+-converted-to.pdf images/fail_fabric_lbp.eps>
+(epstopdf)             \includegraphics on input line 269.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_fabric_lbp-eps-converted-to.pdf, id=91, 599.23875pt x 479.7925pt>
+File: images/fail_fabric_lbp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fail_fabric_lbp-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_fabric_lbp-eps-converted-to.pdf used on in
+put line 269.
+(pdftex.def)             Requested size: 119.24821pt x 95.4736pt.
+Package epstopdf Info: Source file: <images/fail_fabric2_lbp.eps>
+(epstopdf)                    date: 2012-12-02 04:11:32
+(epstopdf)                    size: 391066 bytes
+(epstopdf)             Output file: <images/fail_fabric2_lbp-eps-converted-to.p
+df>
+(epstopdf)                    date: 2012-12-02 07:24:35
+(epstopdf)                    size: 141977 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_fabric2_lbp-ep
+s-converted-to.pdf images/fail_fabric2_lbp.eps>
+(epstopdf)             \includegraphics on input line 273.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_fabric2_lbp-eps-converted-to.pdf, id=92, 599.23875pt x 479.7925pt>
+File: images/fail_fabric2_lbp-eps-converted-to.pdf Graphic file (type pdf)
+<use images/fail_fabric2_lbp-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_fabric2_lbp-eps-converted-to.pdf used on i
+nput line 273.
+(pdftex.def)             Requested size: 119.24821pt x 95.4736pt.
+Package epstopdf Info: Source file: <images/fail_fabric1_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:01:00
+(epstopdf)                    size: 7525517 bytes
+(epstopdf)             Output file: <images/fail_fabric1_shape-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2012-12-02 07:24:37
+(epstopdf)                    size: 343586 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_fabric1_shape-
+eps-converted-to.pdf images/fail_fabric1_shape.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_fabric1_shape-eps-converted-to.pdf, id=93, 599.23875pt x 481.8pt>
+File: images/fail_fabric1_shape-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fail_fabric1_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_fabric1_shape-eps-converted-to.pdf used on
+ input line 277.
+(pdftex.def)             Requested size: 119.24821pt x 95.87308pt.
+Package epstopdf Info: Source file: <images/fail_fabric2_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:04:36
+(epstopdf)                    size: 7525517 bytes
+(epstopdf)             Output file: <images/fail_fabric2_shape-eps-converted-to
+.pdf>
+(epstopdf)                    date: 2012-12-02 07:24:39
+(epstopdf)                    size: 342539 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_fabric2_shape-
+eps-converted-to.pdf images/fail_fabric2_shape.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_fabric2_shape-eps-converted-to.pdf, id=94, 599.23875pt x 481.8pt>
+File: images/fail_fabric2_shape-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fail_fabric2_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_fabric2_shape-eps-converted-to.pdf used on
+ input line 281.
+(pdftex.def)             Requested size: 119.24821pt x 95.87308pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--284
+
+ []
+
+Package epstopdf Info: Source file: <images/fail_foliage1_lbp.eps>
+(epstopdf)                    date: 2012-12-02 04:12:49
+(epstopdf)                    size: 387838 bytes
+(epstopdf)             Output file: <images/fail_foliage1_lbp-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2012-12-02 07:24:41
+(epstopdf)                    size: 140466 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_foliage1_lbp-e
+ps-converted-to.pdf images/fail_foliage1_lbp.eps>
+(epstopdf)             \includegraphics on input line 286.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_foliage1_lbp-eps-converted-to.pdf, id=95, 599.23875pt x 479.7925pt
+>
+File: images/fail_foliage1_lbp-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_foliage1_lbp-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_foliage1_lbp-eps-converted-to.pdf used on 
+input line 286.
+(pdftex.def)             Requested size: 119.24821pt x 95.4736pt.
+Package epstopdf Info: Source file: <images/fail_foliage2_lbp.eps>
+(epstopdf)                    date: 2012-12-02 04:14:01
+(epstopdf)                    size: 389014 bytes
+(epstopdf)             Output file: <images/fail_foliage2_lbp-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2012-12-02 07:24:42
+(epstopdf)                    size: 143499 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_foliage2_lbp-e
+ps-converted-to.pdf images/fail_foliage2_lbp.eps>
+(epstopdf)             \includegraphics on input line 290.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_foliage2_lbp-eps-converted-to.pdf, id=96, 599.23875pt x 479.7925pt
+>
+File: images/fail_foliage2_lbp-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_foliage2_lbp-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_foliage2_lbp-eps-converted-to.pdf used on 
+input line 290.
+(pdftex.def)             Requested size: 119.24821pt x 95.4736pt.
+Package epstopdf Info: Source file: <images/fail_foliage1_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:06:40
+(epstopdf)                    size: 7525518 bytes
+(epstopdf)             Output file: <images/fail_foliage1_shape-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2012-12-02 07:24:44
+(epstopdf)                    size: 289629 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_foliage1_shape
+-eps-converted-to.pdf images/fail_foliage1_shape.eps>
+(epstopdf)             \includegraphics on input line 294.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_foliage1_shape-eps-converted-to.pdf, id=97, 599.23875pt x 481.8pt>
+File: images/fail_foliage1_shape-eps-converted-to.pdf Graphic file (type pdf)
+<use images/fail_foliage1_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_foliage1_shape-eps-converted-to.pdf used o
+n input line 294.
+(pdftex.def)             Requested size: 119.24821pt x 95.87308pt.
+Package epstopdf Info: Source file: <images/fail_foliage2_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:08:17
+(epstopdf)                    size: 7548114 bytes
+(epstopdf)             Output file: <images/fail_foliage2_shape-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2012-12-02 07:24:46
+(epstopdf)                    size: 87930 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_foliage2_shape
+-eps-converted-to.pdf images/fail_foliage2_shape.eps>
+(epstopdf)             \includegraphics on input line 298.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_foliage2_shape-eps-converted-to.pdf, id=98, 599.23875pt x 482.8037
+6pt>
+File: images/fail_foliage2_shape-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_foliage2_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_foliage2_shape-eps-converted-to.pdf used o
+n input line 298.
+(pdftex.def)             Requested size: 119.24821pt x 96.07281pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--302
+
+ []
+
+Package epstopdf Info: Source file: <images/fail_stone1_lbp.eps>
+(epstopdf)                    date: 2012-12-02 04:15:43
+(epstopdf)                    size: 387089 bytes
+(epstopdf)             Output file: <images/fail_stone1_lbp-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2012-12-02 07:24:48
+(epstopdf)                    size: 146495 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_stone1_lbp-eps
+-converted-to.pdf images/fail_stone1_lbp.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_stone1_lbp-eps-converted-to.pdf, id=99, 599.23875pt x 479.7925pt>
+File: images/fail_stone1_lbp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/fail_stone1_lbp-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_stone1_lbp-eps-converted-to.pdf used on in
+put line 304.
+(pdftex.def)             Requested size: 119.24821pt x 95.4736pt.
+Package epstopdf Info: Source file: <images/fail_stone1_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:09:18
+(epstopdf)                    size: 7548112 bytes
+(epstopdf)             Output file: <images/fail_stone1_shape-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2012-12-02 07:24:50
+(epstopdf)                    size: 309338 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_stone1_shape-e
+ps-converted-to.pdf images/fail_stone1_shape.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_stone1_shape-eps-converted-to.pdf, id=100, 599.23875pt x 482.80376
+pt>
+File: images/fail_stone1_shape-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_stone1_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_stone1_shape-eps-converted-to.pdf used on 
+input line 308.
+(pdftex.def)             Requested size: 119.24821pt x 96.07281pt.
+Package epstopdf Info: Source file: <images/fail_wood1_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:13:06
+(epstopdf)                    size: 7548111 bytes
+(epstopdf)             Output file: <images/fail_wood1_shape-eps-converted-to.p
+df>
+(epstopdf)                    date: 2012-12-02 07:24:52
+(epstopdf)                    size: 76603 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_wood1_shape-ep
+s-converted-to.pdf images/fail_wood1_shape.eps>
+(epstopdf)             \includegraphics on input line 312.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_wood1_shape-eps-converted-to.pdf, id=101, 599.23875pt x 482.80376p
+t>
+File: images/fail_wood1_shape-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_wood1_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_wood1_shape-eps-converted-to.pdf used on i
+nput line 312.
+(pdftex.def)             Requested size: 119.24821pt x 96.07281pt.
+Package epstopdf Info: Source file: <images/fail_wood2_shape.eps>
+(epstopdf)                    date: 2012-12-02 06:15:03
+(epstopdf)                    size: 7548111 bytes
+(epstopdf)             Output file: <images/fail_wood2_shape-eps-converted-to.p
+df>
+(epstopdf)                    date: 2012-12-02 07:24:54
+(epstopdf)                    size: 151757 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/fail_wood2_shape-ep
+s-converted-to.pdf images/fail_wood2_shape.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/fail_wood2_shape-eps-converted-to.pdf, id=102, 599.23875pt x 482.80376p
+t>
+File: images/fail_wood2_shape-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/fail_wood2_shape-eps-converted-to.pdf>
+Package pdftex.def Info: images/fail_wood2_shape-eps-converted-to.pdf used on i
+nput line 316.
+(pdftex.def)             Requested size: 119.24821pt x 96.07281pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--320
+
+ []
+
+[4323 <./images/circle.png (PNG copy)> <./images/calib1-eps-converted-to.pdf> <
+./images/calib2-eps-converted-to.pdf> <./images/fabric_mask_image.png (PNG copy
+)> <./images/fabric_mask_shape-eps-converted-to.pdf> <./images/fabric_mask-eps-
+converted-to.pdf> <./images/performanceFigure-eps-converted-to.pdf> <./images/f
+alsepos-eps-converted-to.pdf> <./images/speed-eps-converted-to.pdf>]
+(./egpaper_final.bbl) [4324
+
+ <./images/fail_fabric_lbp-eps-converted-to.pdf> <./images/fail_fabric2_lbp-eps
+-converted-to.pdf> <./images/fail_fabric1_shape-eps-converted-to.pdf> <./images
+/fail_fabric2_shape-eps-converted-to.pdf> <./images/fail_foliage1_lbp-eps-conve
+rted-to.pdf> <./images/fail_foliage2_lbp-eps-converted-to.pdf> <./images/fail_f
+oliage1_shape-eps-converted-to.pdf> <./images/fail_foliage2_shape-eps-converted
+-to.pdf> <./images/fail_stone1_lbp-eps-converted-to.pdf> <./images/fail_stone1_
+shape-eps-converted-to.pdf> <./images/fail_wood1_shape-eps-converted-to.pdf> <.
+/images/fail_wood2_shape-eps-converted-to.pdf>]
+(./egpaper_final.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2739 strings out of 494578
- 36949 string characters out of 3168574
- 93975 words of memory out of 3000000
- 5887 multiletter control sequences out of 15000+200000
- 27794 words of font info for 68 fonts, out of 3000000 for 9000
- 314 hyphenation exceptions out of 8191
- 38i,9n,24p,295b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012basic/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}</usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/
-urw/times/utmr8a.pfb></usr/local/texlive/2012basic/texmf-dist/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on egpaper_final.pdf (2 pages, 80191 bytes).
+ 4072 strings out of 493488
+ 61962 string characters out of 3146878
+ 121088 words of memory out of 3000000
+ 7257 multiletter control sequences out of 15000+200000
+ 29672 words of font info for 70 fonts, out of 3000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 44i,9n,42p,261b,314s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-d
+ist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/t
+imes/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on egpaper_final.pdf (4 pages, 5842233 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 279 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

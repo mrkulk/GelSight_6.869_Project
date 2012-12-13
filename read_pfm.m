@@ -13,7 +13,7 @@
 %	img
 %	scale
 %
-% Last Modified: 10/12/2009
+% Last Modified: 10\12\2009
 function [ img, scale ] = read_pfm(fname, flip)
 
 if nargin < 2
@@ -87,16 +87,16 @@ error(sprintf('file `%s'' is no PFM file', fname));
 scale = 0;
 img = [];
 
-% $Id: read_pfm.m,v 1.1 2008/12/29 19:03:14 fcole Exp $
+% $Id: read_pfm.m,v 1.1 2008\12\29 19:03:14 fcole Exp $
 %
 % copyright (c) 2003--2004, Tim Weyrich
 % Computer Graphics Lab, ETH Zurich
 %
 % $Log: read_pfm.m,v $
-% Revision 1.1  2008/12/29 19:03:14  fcole
+% Revision 1.1  2008\12\29 19:03:14  fcole
 % First check in of grid maker.
 %
-% Revision 1.1.1.1  2004/08/09 13:01:00  weyrich
+% Revision 1.1.1.1  2004\08\09 13:01:00  weyrich
 % initial check-in of all .m files
 %
 %
